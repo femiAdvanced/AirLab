@@ -76,7 +76,11 @@ int main() {
     }
     current = current->nextNode;
   }
+<<<<<<< HEAD
   cout << "Farthest: " << far->code << endl;
+=======
+  cout << "Farthest: " << far->code  << " " <<far->lati << " " << far->longi << " dist: " << largest << endl;
+>>>>>>> fc3eab2 (Changed so Replit Can Run)
   simpleSortTotal(head);
   cout << "Within 100 miles." << endl;
 
